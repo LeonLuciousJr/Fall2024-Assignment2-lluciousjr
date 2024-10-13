@@ -1,4 +1,3 @@
-// Function to handle the Bing API search
 function apiSearch() {
     var params = {
         'q': $('#query').val(),
