@@ -1,0 +1,77 @@
+/* Set the background image */
+body {
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Set the visibility of searchResults and time divs to hidden initially */
+#searchResults, #time {
+    visibility: hidden;
+}
+
+/* Style the header and buttons */
+header {
+    font-size: 50px; /* Make header larger */
+    color: #fff;
+    text-align: center;
+    padding: 40px; /* Add more padding */
+    background-color: rgba(0, 0, 0, 0.7); /* Slight background for readability */
+    margin-bottom: 50px; /* Add space below the header */
+}
+
+/* Style the search input */
+input#query {
+    width: 90%; /* Wider search box */
+    max-width: 3500px; /* Set an even larger max width */
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 30px; /* Rounder edges */
+    border: 1px solid #ddd;
+    margin: 20px auto; /* Add margin for spacing */
+    display: block; /* Center the input field */
+}
+
+/* Style the buttons */
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Align content in the center */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the div that will hold search results */
+#searchResults {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style the div that will display time */
+#time {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+}

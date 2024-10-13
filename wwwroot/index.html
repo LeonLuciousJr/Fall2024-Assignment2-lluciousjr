@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Search</title> <!-- Title of the same name as the header -->
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- jQuery with SRI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"></script>
+
+    <!-- jQuery UI with SRI -->
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha384-tc3TMXCcTCib89yECEQXI4e6DhhlwNrqzYpvyeSqBD2vB/KugQH7o3p+/UtKuS5L"
+            crossorigin="anonymous"></script>
+
+    <!-- jQuery UI Theme (Smoothness) with SRI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css"
+          integrity="sha384-1O/Ea+UHoX8+zUg3pZwYjiQ2ghQi0q3aK9bEDHA21sd/7+6IL5NO2bVfOpSBxTAK"
+          crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Centering the entire content -->
+    <div class="container">
+        <!-- Header for search engine -->
+        <header>
+            <h1>Stellar Search</h1> <!-- Creative name for the search engine -->
+        </header>
+
+        <!-- Search box -->
+        <div>
+            <input type="text" id="query" placeholder="Enter search query">
+        </div>
+
+        <!-- Button under the text box -->
+        <div>
+            <button id="searchBtn" value="Search">Search</button> <!-- Button with value of "Search" under the text box -->
+        </div>
+
+        <!-- Button to display current time -->
+        <div>
+            <button id="timeBtn">Show Current Time</button> <!-- Button to show current time -->
+        </div>
+
+        <!-- Div to display search results -->
+        <div id="searchResults"></div> <!-- Empty div for search results -->
+        <!-- Div to display current time -->
+        <div id="time"></div> <!-- Empty div for time -->
+    </div>
+
+    <!-- Link to your custom JavaScript file -->
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
