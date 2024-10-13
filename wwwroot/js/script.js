@@ -61,7 +61,6 @@ $(document).ready(function () {
         changeBackgroundImage();
     });
 
-    // Event listener for clicking the time button to show the current time
     $("#timeBtn").click(function () {
         showCurrentTime();
     });
