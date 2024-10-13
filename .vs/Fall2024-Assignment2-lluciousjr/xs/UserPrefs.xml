@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{B25E5740-E6A1-44DB-B5A5-1BFD6DFD2287}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.Fall2024-Assignment2-lluciousjr PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Fall2024-Assignment2-lluciousjr PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/script.js">
+    <Files>
+      <File FileName="Program.cs" Line="29" Column="1" />
+      <File FileName="wwwroot/script.js" Line="86" Column="1" />
+      <File FileName="wwwroot/index.html" Line="61" Column="1" />
+      <File FileName="wwwroot/style.css" Line="78" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fall2024-Assignment2-lluciousjr">
+            <Node name="Fall2024-Assignment2-lluciousjr">
+              <Node name="wwwroot">
+                <Node name="css" expanded="True" />
+                <Node name="js">
+                  <Node name="script.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
