@@ -45,9 +45,26 @@ function showCurrentTime() {
 
     console.log("Current Time: ", formattedTime);  // Debugging log for current time
 
-    $('#time').html(formattedTime);  // Display the formatted time in the div
+    // Clear any previous content in the #time div before inserting the new time
+    $('#time').html('');
+    $('#time').append(`<p>${formattedTime}</p>`);  // Insert the formatted time in a <p> tag
+
     $('#time').css('visibility', 'visible');  // Make the time div visible
-    $('#time').dialog();  // Show the time in a jQuery dialog
+
+    // Check if the jQuery dialog is already initialized
+    if ($('#time').dialog("instance")) {
+        $('#time').dialog("destroy");  // Destroy previous instance to avoid multiple dialogs
+    }
+
+    // Initialize the jQuery dialog
+    $('#time').dialog({
+        title: "Current Time",
+        modal: true,
+        width: 400,
+        height: 200,
+        show: { effect: "fadeIn", duration: 500 },
+        hide: { effect: "fadeOut", duration: 500 }
+    });
 }
 
 // Event listener for the search button to trigger the Bing API search
@@ -61,6 +78,7 @@ $(document).ready(function () {
         changeBackgroundImage();
     });
 
+    // Event listener for clicking the time button to show the current time
     $("#timeBtn").click(function () {
         showCurrentTime();
     });
